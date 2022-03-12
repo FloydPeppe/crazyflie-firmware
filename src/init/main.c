@@ -51,7 +51,7 @@ int main()
   systemLaunch();
 
   //Start the FreeRTOS scheduler
-  vTaskStartScheduler();
+  //vTaskStartScheduler();
 
   //TODO: Move to platform launch failed
   ledInit();

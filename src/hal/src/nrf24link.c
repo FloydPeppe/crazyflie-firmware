@@ -46,7 +46,7 @@ static bool isInit;
 xSemaphoreHandle dataRdy;
 /* Data queue */
 xQueueHandle txQueue;
-xQueueHandle rxQueue;
+static xQueueHandle rxQueue;
 
 static uint32_t lastPacketTick;
 
